@@ -3,11 +3,15 @@
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "259004c01e70444241bb0a9aee8d6ecd1bad9fe3"
+  "gitHead": "7ffd335eb60be79386da34c48414110aa56dc93f"
 }
