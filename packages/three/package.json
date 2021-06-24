@@ -13,5 +13,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "7ffd335eb60be79386da34c48414110aa56dc93f"
+  "gitHead": "7ffd335eb60be79386da34c48414110aa56dc93f",
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
 }

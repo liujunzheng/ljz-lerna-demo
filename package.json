@@ -1,14 +1,28 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "publish": "",
+    "serve": "npm run dev && npm run page",
+    "page": "parcel index.html",
+    "dev": "./node_modules/rollup/dist/bin/rollup -c -w",
+    "build": "./node_modules/rollup/dist/bin/rollup -c"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "workspaces":[
+  "workspaces": [
     "packages/*"
   ],
+  "browser": "dist/index.js",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "rollup": "^2.52.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.14.1",
+    "typescript": "^4.3.4"
   }
 }
