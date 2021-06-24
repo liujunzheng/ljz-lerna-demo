@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "publish": "",
-    "serve": "npm run dev && npm run page",
+    "serve": "npm run dev & npm run page",
     "page": "parcel index.html",
     "dev": "./node_modules/rollup/dist/bin/rollup -c -w",
     "build": "./node_modules/rollup/dist/bin/rollup -c"
@@ -22,6 +22,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript": "^1.0.1",
+    "ts-node-dev": "^1.1.6",
     "tslib": "^1.14.1",
     "typescript": "^4.3.4"
   }
